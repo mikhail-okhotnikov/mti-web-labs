@@ -5,7 +5,7 @@ export function calculateAverage(data) {
     let sum = 0;
 
     for (const student of data) {
-        sum = sum + student.core;
+        sum = sum + student.score;
     }
  
     return sum / data.length;
